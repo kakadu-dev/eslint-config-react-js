@@ -1,0 +1,55 @@
+module.exports = {
+    rules: {
+        'react/jsx-props-no-spreading':      0,
+        'react/forbid-prop-types':           0,
+        'react/jsx-wrap-multilines':         0,
+        'import/no-unresolved':              0,
+        'import/no-dynamic-require':         0,
+        'import/no-cycle':                   0,
+        'no-return-assign':                  0,
+        'no-trailing-spaces':                0,
+        'no-mixed-operators':                0,
+        'no-mixed-spaces-and-tabs':          0,
+        'jsx-quotes':                        [1, 'prefer-double'],
+        'react/jsx-filename-extension':      [1, { 'extensions': ['.js', '.jsx'] }],
+        'react-hooks/exhaustive-deps':       1,
+        'react/jsx-indent':                  [1, 'tab'],
+        'react/jsx-indent-props':            [1, 'tab'],
+        'react-hooks/rules-of-hooks':        2,
+        'arrow-parens':                      [2, 'as-needed'],
+        'semi':                              [2, 'never'],
+        'object-curly-newline':              [2, { 'multiline': true }],
+        'operator-linebreak':                [2, 'after'],
+        'no-multi-spaces':                   [2, { exceptions: { 'VariableDeclarator': true } }],
+        'sort-imports':                      [2, {
+            'ignoreCase':            true,
+            'ignoreDeclarationSort': true,
+            'ignoreMemberSort':      false,
+            'memberSyntaxSortOrder': ['all', 'single', 'multiple', 'none'],
+        }],
+        'key-spacing':                       [2, {
+            align: {
+                'beforeColon': false,
+                'afterColon':  true,
+                'on':          'value',
+            },
+        }],
+    },
+    extends: [
+        'react-app',
+        'plugin:react/recommended',
+        'plugin:react-redux/recommended',
+    ],
+    parserOptions: {
+        ecmaFeatures: {
+            jsx: true,
+        },
+        ecmaVersion:  2018,
+        sourceType:   'module',
+    },
+    plugins: [
+        'react',
+        'react-redux',
+        'react-hooks',
+    ],
+};
