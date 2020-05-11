@@ -61,7 +61,7 @@ module.exports = {
         'arrow-parens':                      [2, 'as-needed'],
         'semi':                              [2, 'never'],
         'no-use-before-define':              [2, { 'functions': false }],
-        'object-curly-newline':              [2, { 'multiline': true }],
+        'object-curly-newline':              [2, { 'consistent': true }],
         'operator-linebreak':                [2, 'after'],
         'no-multi-spaces':                   [2, { exceptions: { 'VariableDeclarator': true } }],
         'indent':                            [2, 'tab', { 'SwitchCase': 1 }],

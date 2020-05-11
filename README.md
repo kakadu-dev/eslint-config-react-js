@@ -1,4 +1,4 @@
-# Eslint config for ReactJS ![version](https://img.shields.io/badge/version-1.0.1-blue)
+# Eslint config for ReactJS ![version](https://img.shields.io/badge/version-1.0.2-blue)
 
 [![N|Solid](https://avatars3.githubusercontent.com/u/39901497?s=200&v=4)](https://github.com/kakadu-dev)
 
@@ -19,7 +19,7 @@ This package is a necessary tool for writing quality code.
 ## Installing
 
 ```sh
-$ npm install @kakadu-dev/eslint-config-react-js@1.0.1
+$ npm install @kakadu-dev/eslint-config-react-js@1.0.2
 ```
 
 ## Built With
