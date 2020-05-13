@@ -51,6 +51,7 @@ module.exports = {
         'global-require':                    0,
         'camelcase':                         0,
         'linebreak-style':                   0,
+        'no-underscore-dangle':              0,
         'jsx-quotes':                        [1, 'prefer-double'],
         'react/jsx-filename-extension':      [1, { 'extensions': ['.js', '.jsx'] }],
         'react-hooks/exhaustive-deps':       1,
