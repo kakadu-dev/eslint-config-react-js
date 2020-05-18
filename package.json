@@ -1,6 +1,6 @@
 {
   "name": "@kakadu-dev/eslint-config-react-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Eslint configuration for ReactJS applications",
   "main": "index.js",
   "publishConfig":    {
