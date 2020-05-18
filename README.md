@@ -1,4 +1,4 @@
-# Eslint config for ReactJS ![version](https://img.shields.io/badge/version-1.0.3-blue). 
+# Eslint config for ReactJS
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kakadu-dev/slint-config-react-js)
 
