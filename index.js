@@ -57,6 +57,7 @@ module.exports = {
         'global-require':                    0,
         'camelcase':                         0,
         'linebreak-style':                   0,
+	'operator-linebreak':                0,
         'no-underscore-dangle':              0,
         'jsx-quotes':                        [1, 'prefer-double'],
         'react/jsx-filename-extension':      [1, { 'extensions': ['.js', '.jsx'] }],
@@ -78,11 +79,10 @@ module.exports = {
             'memberSyntaxSortOrder': ['all', 'single', 'multiple', 'none'],
         }],
         'key-spacing':                       [2, {
-            align: {
-                'beforeColon': false,
-                'afterColon':  true,
-                'on':          'value',
-            },
+            'beforeColon': false,
+	    'afterColon':  true,
+	    'align':       'value',
+	    'mode':        'minimum',
         }],
         'react/sort-comp':                   [
             2,
