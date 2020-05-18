@@ -1,6 +1,6 @@
 # Eslint config for ReactJS
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kakadu-dev/slint-config-react-js)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kakadu-dev/eslint-config-react-js)
 
 This package is a necessary tool for writing quality code.
 
