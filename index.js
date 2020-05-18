@@ -44,7 +44,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
         'no-return-assign':                  0,
         'no-trailing-spaces':                0,
-        'no-multi-spaces':                   0,
+        'no-multi-spaces':                   [1, { exceptions: { 'Property': true, 'VariableDeclarator': true } }],
         'no-mixed-spaces-and-tabs':          0,
         'no-tabs':                           0,
         'no-async-promise-executor':         0,
