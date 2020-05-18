@@ -44,7 +44,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
         'no-return-assign':                  0,
         'no-trailing-spaces':                0,
-        'no-mixed-operators':                0,
+        'no-multi-spaces':                   0,
         'no-mixed-spaces-and-tabs':          0,
         'no-tabs':                           0,
         'no-async-promise-executor':         0,
@@ -64,7 +64,6 @@ module.exports = {
         'no-use-before-define':              [2, { 'functions': false }],
         'object-curly-newline':              [2, { 'consistent': true }],
         'operator-linebreak':                [2, 'after'],
-        'no-multi-spaces':                   [2, { exceptions: { 'VariableDeclarator': true } }],
         'indent':                            [2, 'tab', { 'SwitchCase': 1 }],
         'sort-imports':                      [2, {
             'ignoreCase':            true,
